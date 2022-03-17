@@ -44,11 +44,11 @@
 
         this.obstacles = [];
 
-        this.activated = false; // Whether the easter egg has been activated.
+        this.activated = true; // Whether the easter egg has been activated.
         this.playing = false; // Whether the game is currently in play state.
         this.crashed = false;
         this.paused = false;
-        this.inverted = false;
+        this.inverted = true;
         this.invertTimer = 0;
         this.resizeTimerId_ = null;
 
